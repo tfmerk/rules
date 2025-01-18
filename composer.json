@@ -1,0 +1,20 @@
+{
+    "name": "tfmerk/rules",
+    "description": "A quick prototype of a rule based value processing.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tfmerk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tmerk\\Rules\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
